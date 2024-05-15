@@ -1,0 +1,269 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello, how are you today?",
+          "Hai there, how's it going?",
+          "Good morning, how have you been?",
+          "Hey, what's up?",
+          "Hai, how are things?",
+          "Good afternoon, how are you?",
+          "Hey there, how's everything?",
+          "Hello, how have you been doing?",
+          "Ola, how's your day going?",
+          "Good evening, how are you feeling today?",
+          "Hey, how's life treating you?",
+          "Hello, what's new with you?",
+          "Hi, how are you holding up?",
+          "Good morning, how's everything going?",
+          "Hey, how's your day been so far?",
+          "Hi there, what's going on?",
+          "Hello, how have you been lately?",
+          "Good afternoon, what's up?",
+          "Hey, how's it been?",
+          "Hi, how's your week going?",
+          "Hello, how's your day shaping up?",
+          "Hi, how have things been?",
+          "Hey, how are you doing today?",
+          "Good morning, what's happening?",
+          "Hello, how's everything with you?",
+          "Hi there, how's your week been?",
+          "Hey, what's new with you?",
+          "Hello, how are you feeling today?",
+          "Hi, what's going on with you?",
+          "Good afternoon, how's your day?",
+          "Hey, how's life?",
+          "Hi, what's happening in your world?",
+          "Hello, how are you this fine day?",
+          "Hi, what have you been up to?",
+          "Hey there, how's your day treating you?",
+          "Good evening, how have you been?",
+          "Hello, how's everything on your end?",
+          "Hi, how's your day unfolding?",
+          "Hey, how are things with you?",
+          "Hello, what's been going on with you?"
+        ],
+        "responses": [
+        "Hello! I'm doing well, thanks. Do you have any questions for me?",
+        "Hi there! I'm good, how about you? Is there anything you need to ask?",
+        "Good morning! I'm fine, thank you. Do you have any questions?",
+        "Hey! I'm doing great, thanks. Is there something you'd like to know?",
+        "Hi! I'm well, thanks for asking. Do you have any questions for me?",
+        "Good afternoon! I'm good, how can I help you today? Any questions?",
+        "Hello! I'm fine, thank you. Do you have any questions on your mind?",
+        "Hi there! I'm doing well. Is there anything you want to ask?",
+        "Hey! I'm great, thanks. Do you have any questions for me?",
+        "Good evening! I'm well, thanks. Do you have any questions you need answered?",
+        "Hi! I'm doing well, thank you. Is there anything you'd like to ask?",
+        "Hello! I'm fine, thanks. Do you have any questions you need help with?",
+        "Good morning! I'm great, how about you? Any questions you have?",
+        "Hey! I'm good, thank you. Do you have any questions for me today?",
+        "Hi there! I'm well, how can I assist you? Any questions?",
+        "Hello! I'm doing fine, thanks. Is there something you want to ask?",
+        "Hi! I'm great, thanks for asking. Do you have any questions?",
+        "Good afternoon! I'm well, is there anything you'd like to know?",
+        "Hey! I'm doing well, how can I help you? Any questions?",
+        "Hello! I'm good, thank you. Do you have any questions or concerns?"
+        ]
+      },
+      {
+        "tag": "grocery",
+        "patterns": [
+          "Could you recommend me some grocery stores with good prices?",
+          "What are some grocery stores known for their low prices?",
+          "Where can I find affordable grocery stores?",
+          "Can you suggest some budget-friendly grocery stores?",
+          "Which grocery stores offer the best prices?",
+          "Do you know any grocery stores with great deals on groceries?",
+          "Can you recommend places to buy groceries cheaply?",
+          "What are some cost-effective grocery stores to shop at?",
+          "Where can I shop for groceries on a budget?",
+          "Which stores have the most affordable groceries?",
+          "Can you suggest any grocery stores with reasonable prices?",
+          "Which grocery stores have the best prices on food items?",
+          "Where can I find grocery stores with competitive pricing?",
+          "What are some supermarkets with affordable grocery options?",
+          "Can you name grocery stores that offer good value for money?",
+          "Where can I shop for groceries without spending too much?",
+          "Do you have any recommendations for grocery stores with low costs?",
+          "Which stores offer the most budget-friendly groceries?",
+          "What grocery stores provide the best bargains?",
+          "Where can I get the best deals on groceries?",
+          "Can you list grocery stores that are known for their cheap prices?"
+        ],
+        "responses": [
+          "There are several places where you can do your grocery shopping. {MAP} Jaya One Aeon Big,3.1171256487169527,101.63514875334091,The Sphere Aeon,3.1119326392530984,101.66726374194431,KL Gateway Village Grocer,3.113313338105652,101.66281628912402"
+        ]
+      },
+      {
+        "tag": "ISC office",
+        "patterns": [
+          "Can you tell me the location of the International Students and Mobility Center (ISC) office?",
+          "Where can I find the office for the International Students and Mobility Center (ISC)?",
+          "What is the address of the International Students and Mobility Center (ISC) office?",
+          "Do you know where the International Students and Mobility Center (ISC) office is located?",
+          "Could you direct me to the International Students and Mobility Center (ISC) office?",
+          "Where is the ISC office situated on campus?",
+          "Can you show me where the International Students and Mobility Center (ISC) office is?",
+          "Where exactly is the International Students and Mobility Center (ISC) office?",
+          "Could you provide the location of the International Students and Mobility Center (ISC) office?",
+          "Is there a map showing the location of the International Students and Mobility Center (ISC) office?",
+          "Where is the International Students and Mobility Center (ISC) office located?",
+          "Can you point me to the International Students and Mobility Center (ISC) office?",
+          "I need to find the International Students and Mobility Center (ISC) office; where is it?",
+          "Could you tell me how to get to the International Students and Mobility Center (ISC) office?",
+          "Where should I go to find the International Students and Mobility Center (ISC) office?",
+          "Where is the International Students and Mobility Center (ISC) office on campus?",
+          "What building houses the International Students and Mobility Center (ISC) office?",
+          "Can you help me locate the International Students and Mobility Center (ISC) office?",
+          "I'm looking for the International Students and Mobility Center (ISC) office; where is it?",
+          "Could you give me directions to the International Students and Mobility Center (ISC) office?"
+        ],
+        "responses": [
+         "Block G KPS, first floor"
+        ]
+      },
+      {
+        "tag": "unable course module",
+        "patterns": [
+        "Why can't I register for the course module?",
+        "What should I do if I am unable to register for the course module?",
+        "Is there an issue preventing me from registering for the course module?",
+        "How can I resolve the problem of being unable to register for the course module?",
+        "What are the reasons for not being able to register for the course module?",
+        "Are there any steps I need to take if I can't register for the course module?",
+        "Has anyone else encountered difficulties registering for the course module?",
+        "What might be causing the inability to register for the course module?",
+        "Is there a technical issue preventing course module registration?",
+        "Who can assist me if I'm having trouble registering for the course module?",
+        "What could be the reasons behind the failure to register for the course module?",
+        "Is there a specific error message when attempting to register for the course module?",
+        "Have there been any recent changes affecting registration for the course module?",
+        "Is there a deadline or restriction affecting registration for the course module?",
+        "Are there prerequisites I need to fulfill before registering for the course module?",
+        "Is there a maximum capacity for the course module that has been reached?",
+        "Are there any holds or blocks on my account preventing course module registration?",
+        "Is there a specific process I need to follow to register for the course module?",
+        "Has the registration period for the course module ended?",
+        "Can you provide guidance on troubleshooting issues with course module registration?"
+        ],
+        "responses": [
+          "Email officer"
+        ]
+      },
+      {
+        "tag": "course module register",
+        "patterns": [
+          "What course should I register for?",
+          "How do I decide which course to register for?",
+          "Is there guidance on choosing the right course to register for?",
+          "Which course would be most suitable for me to register?",
+          "What factors should I consider when choosing a course to register for?",
+          "Can you help me determine which course to register for?",
+          "Are there any recommendations for selecting a course to register for?",
+          "What criteria should I use in selecting a course to register for?",
+          "How can I make an informed decision about which course to register for?",
+          "Are there advisors available to assist with choosing the right course to register for?",
+          "What are some factors to consider when deciding which course to register for?",
+          "Is there a process or guideline for selecting the appropriate course to register for?",
+          "Are there any resources available to help me choose which course to register for?",
+          "Can you provide tips on how to choose the best course to register for?",
+          "Are there specific requirements I should consider when selecting a course to register for?",
+          "What are the options available to me in terms of courses to register for?",
+          "Is there a specific department or office I should consult regarding course registration?",
+          "How can I ensure that the course I register for aligns with my academic or career goals?",
+          "Are there any prerequisites or recommendations for the course I'm considering registering for?",
+          "Who can provide advice or guidance on selecting the right course to register for?"
+        ],
+        "responses": [
+          "Courses with 1M occ"
+        ]
+      },
+      {
+        "tag": "Not enough credits",
+        "patterns": [
+          "What should I do if I don't have enough credits?",
+          "How can I address the issue of not having enough credits?",
+          "What are my options if I am short on credits?",
+          "Is there a way to make up for not having enough credits?",
+          "What steps can I take to meet the credit requirements?",
+          "Are there any alternatives available if I'm lacking credits?",
+          "Who should I speak to if I am concerned about not having enough credits?",
+          "Can you provide guidance on how to resolve the issue of insufficient credits?",
+          "Is there a deadline for meeting the credit requirements?",
+          "Are there any resources or support services available for students with insufficient credits?",
+          "What are the consequences of not having enough credits?",
+          "Is there a process for appealing or addressing the issue of insufficient credits?",
+          "Are there any exceptions or waivers available for students with not enough credits?",
+          "What impact does not having enough credits have on my academic progress?",
+          "Are there specific courses or activities I can undertake to earn additional credits?",
+          "How can I determine the number of credits I need to fulfill my requirements?",
+          "Is there a minimum credit requirement for maintaining enrollment status?",
+          "Are there any restrictions or limitations for students with insufficient credits?",
+          "What strategies can I use to ensure I have enough credits for graduation?",
+          "Who can I consult for assistance with planning my credit requirements?"
+        ],
+        "responses": [
+          "Inform officer,but not the lecturer"
+        ]
+      },
+      {
+        "tag": "Best place eat",
+        "patterns": [
+          "Where is the best place to eat?",
+          "Can you recommend the top dining spots?",
+          "What are the best restaurants in the area?",
+          "Where can I find the most delicious food?",
+          "What's the go-to place for a great meal?",
+          "Which restaurants offer the finest dining experience?",
+          "What are the top-rated eateries nearby?",
+          "Where should I go for an unforgettable dining experience?",
+          "What's the ultimate destination for food enthusiasts?",
+          "Which dining establishments are highly recommended?",
+          "Where can I find the tastiest food in town?",
+          "Which dining spot offers the most bang for the buck?",
+          "What's the top pick for a memorable dining experience?",
+          "Are there any hidden gems for great food?",
+          "Can you suggest a must-visit restaurant for food lovers?",
+          "Where can I go for a special occasion dinner?",
+          "What's the locals' favorite place to eat?",
+          "Which restaurant has the best ambiance for a meal?",
+          "Can you recommend a place with exceptional reviews for dining?"
+        ],
+        "responses": [
+          "Inside KK",
+          "KL Gateway",
+          "Faculty cafes"
+        ]
+      },
+      {
+        "tag": "How to go",
+        "patterns": [
+          "By which mode of transportation?",
+          "What transport options are available?",
+          "With what means of travel?",
+          "How can I get there?",
+          "By what method of transportation?",
+          "What are the available transportation choices?",
+          "Through which transport means?",
+          "Using which mode of transit?",
+          "What transport alternatives exist?",
+          "By what mode of travel?",
+          "Which transportation options should I consider?",
+          "What modes of transport are accessible?",
+          "What are the available means of transportation?",
+          "How should I travel to [destination]?",
+          "What transportation modes are suitable for the journey?",
+          "Which transport methods are recommended?",
+          "What are the different ways to get there?",
+          "Which forms of transportation are most convenient?",
+          "What are my transport choices?",
+          "Which transportation options are the most efficient?"
+        ],
+        "responses": [
+          "Bus lrt or grab {PDF} AP1 Briefing 2023_2024.pptx.pdf"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,5 @@
+/.env
+/chatbot
+/data.pth
+/Test LLM
+/__pycache__
