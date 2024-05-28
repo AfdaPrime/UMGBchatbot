@@ -3,6 +3,8 @@
       {
         "tag": "greeting",
         "patterns": [
+          "Hello",
+          "Hi",
           "Hello, how are you today?",
           "Hai there, how's it going?",
           "Good morning, how have you been?",
@@ -68,6 +70,38 @@
         ]
       },
       {
+        "tag": "thank you",
+        "patterns": [
+          "Thank you!",
+          "Thanks a lot!",
+          "I appreciate it!",
+          "Thanks for your help!",
+          "Thank you so much!",
+          "You're a lifesaver, thanks!",
+          "Thanks for the information!",
+          "Thank you, this is very helpful!",
+          "I really appreciate your assistance!",
+          "Thanks, you've been very helpful!",
+          "Thanks, that clears things up!",
+          "Thank you for your help!",
+          "Awesome, thanks!",
+          "Thank you, I appreciate it!",
+          "Many thanks!"
+        ],
+        "responses": [
+          "You're welcome! If you have any more questions, feel free to ask.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "Glad I could help! For further assistance, let me know.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "Anytime! If you need more information, just ask.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "No problem! If you have more questions, I'm here.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "Happy to help! Don't hesitate to ask if you need anything else.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "You're welcome! If you have any suggestions or feedback, please let me know.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "I'm glad I could assist you. Feel free to ask more questions.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "Anytime! If you have any suggestions for improvement, let us know.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "No problem at all! For any further questions, you can ask them here.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future.",
+          "Happy to help! We value your feedback and questions, so feel free to share.\n\nFeel free to submit any feedback or suggestions you have using the following link:\nhttps://forms.gle/CFcVGVkenBBTCZLe6.\n\nYour input helps us improve and provide better assistance in the future."
+        ]
+      },
+      {
         "tag": "grocery",
         "patterns": [
           "Could you recommend me some grocery stores with good prices?",
@@ -93,12 +127,21 @@
           "Can you list grocery stores that are known for their cheap prices?"
         ],
         "responses": [
-          "There are several places where you can do your grocery shopping. {MAP} Jaya One Aeon Big,3.1171256487169527,101.63514875334091,The Sphere Aeon,3.1119326392530984,101.66726374194431,KL Gateway Village Grocer,3.113313338105652,101.66281628912402"
+          "If you are planning to buy some groceries for yourself, there are several mall that you can visit that have grocery store:\n\n1. Jaya One Aeon Big\nhttps://maps.app.goo.gl/AZ9q1Y1ZpttneErv9 \n\n 2. The Sphere Aeon\nhttps://maps.app.goo.gl/kbcoSLFfC8JBV8ug7 \n\n 3. KL Gateway Village Grocer\nhttps://maps.app.goo.gl/GU6EYddzJ9cpcy5S9\n\nAdditionally, there is a night market every every Tuesday where you can find fresh local produce and local goods. The night market held behind the UM International House. Below are the location of the night market:\nhttps://maps.app.goo.gl/C2Jkzj9DtwDMDNhY7\n\nLastly, if you are looking for basic items such as eggs, instant noodles, snacks, etc, you may go to KK Mart, which is located at Kompleks Perdanasiswa (KPS) and also Kolej Kediaman 12 (KK12) in University Malaya."
         ]
       },
       {
         "tag": "ISC office",
         "patterns": [
+          "How to go to ISC Office?",
+          "Where is the ISC Office?",
+          "Where can I find the ISC Office?",
+          "Can you tell me where the ISC Office is?",
+          "Do you know where the ISC Office is?",
+          "Where’s the ISC Office located?",
+          "Could you tell me where the ISC Office is located?",
+          "Where is the ISC Office situated?",
+          "Where exactly is the ISC Office?",
           "Can you tell me the location of the International Students and Mobility Center (ISC) office?",
           "Where can I find the office for the International Students and Mobility Center (ISC)?",
           "What is the address of the International Students and Mobility Center (ISC) office?",
@@ -121,40 +164,51 @@
           "Could you give me directions to the International Students and Mobility Center (ISC) office?"
         ],
         "responses": [
-         "Block G KPS, first floor"
+         "The ISC Office will be located at the first floor of Block G, Kompleks Perdanasiswa (KPS). Here is the link of Google Map to ISC Office: \n\nhttps://maps.app.goo.gl/Ck4LiLq9nMkU8h8k7 \n\nTo reach the ISC Office, you can take any bus within UM to get to UM Sentral. From there, it’s just a short walk to Kompleks Perdanasiswa (KPS)."
         ]
       },
       {
         "tag": "unable course module",
         "patterns": [
-        "Why can't I register for the course module?",
-        "What should I do if I am unable to register for the course module?",
-        "Is there an issue preventing me from registering for the course module?",
-        "How can I resolve the problem of being unable to register for the course module?",
-        "What are the reasons for not being able to register for the course module?",
-        "Are there any steps I need to take if I can't register for the course module?",
-        "Has anyone else encountered difficulties registering for the course module?",
-        "What might be causing the inability to register for the course module?",
-        "Is there a technical issue preventing course module registration?",
-        "Who can assist me if I'm having trouble registering for the course module?",
-        "What could be the reasons behind the failure to register for the course module?",
-        "Is there a specific error message when attempting to register for the course module?",
-        "Have there been any recent changes affecting registration for the course module?",
-        "Is there a deadline or restriction affecting registration for the course module?",
-        "Are there prerequisites I need to fulfill before registering for the course module?",
-        "Is there a maximum capacity for the course module that has been reached?",
-        "Are there any holds or blocks on my account preventing course module registration?",
-        "Is there a specific process I need to follow to register for the course module?",
-        "Has the registration period for the course module ended?",
-        "Can you provide guidance on troubleshooting issues with course module registration?"
+          "Why I cannot register my course in MAYA portal?",
+          "Why can't I register for the course module?",
+          "What should I do if I am unable to register for the course module?",
+          "Is there an issue preventing me from registering for the course module?",
+          "How can I resolve the problem of being unable to register for the course module?",
+          "What are the reasons for not being able to register for the course module?",
+          "Are there any steps I need to take if I can't register for the course module?",
+          "Has anyone else encountered difficulties registering for the course module?",
+          "What might be causing the inability to register for the course module?",
+          "Is there a technical issue preventing course module registration?",
+          "Who can assist me if I'm having trouble registering for the course module?",
+          "What could be the reasons behind the failure to register for the course module?",
+          "Is there a specific error message when attempting to register for the course module?",
+          "Have there been any recent changes affecting registration for the course module?",
+          "Is there a deadline or restriction affecting registration for the course module?",
+          "Are there prerequisites I need to fulfill before registering for the course module?",
+          "Is there a maximum capacity for the course module that has been reached?",
+          "Are there any holds or blocks on my account preventing course module registration?",
+          "Is there a specific process I need to follow to register for the course module?",
+          "Has the registration period for the course module ended?",
+          "Can you provide guidance on troubleshooting issues with course module registration?"
         ],
         "responses": [
-          "Email officer"
+          "If you are facing the registration course problems, there may be several factors that causes it to happens:\n\n- Not connected to the internet.\n- You are not entering the right username or password \n- MAYA portal is currently crashed as too many request from too many users.\n- You are trying to register courses where the Occurence is not 1M.\n\nIf any of the following problems ensure, please ensure that you are connected to the internet, entering the right username and password, and only register 1M Occurence courses. If the MAYA portal is too slow or crashed during your registration, make sure to stay updated with the Telegram group announcement and give it some time for the Portal to be fixed.\n\nIf you still have problems that is not answered by this respond, feel free to ask the buddies or email the ISC officer."
         ]
       },
       {
         "tag": "course module register",
         "patterns": [
+          "What courses can mobility students register for at the university?",
+          "Are there any restrictions on the courses mobility students can take?",
+          "Can mobility students take courses from different faculties?",
+          "What should a mobility student do if they want to take a course   that doesn't have an occurrence of 1M?",
+          "Who should mobility students consult if they want to take a course not available to them?",
+          "Is approval needed from any specific office or lecturer for certain courses?",
+          "How are transfer credits handled for mobility students?",
+          "What factors determine the transfer of credits for mobility students?",
+          "Do mobility students need to get approval from their home university for course registration?",
+          "What is the process for mobility students to register for courses outside of the standard occurrence?",
           "What course should I register for?",
           "How do I decide which course to register for?",
           "Is there guidance on choosing the right course to register for?",
@@ -177,7 +231,7 @@
           "Who can provide advice or guidance on selecting the right course to register for?"
         ],
         "responses": [
-          "Courses with 1M occ"
+          "Mobility students can only register for courses that have an occurrence of 1M. You may choose any of the courses, even those from different faculties.\n\nIf you want to take courses that do not have an occurrence of 1M, you need to ask the officers in the ISC Office and get approval from the lecturer.\n\nAny transfer credit-related matters will depend on the mobility student and their home university."
         ]
       },
       {
@@ -205,12 +259,14 @@
           "Who can I consult for assistance with planning my credit requirements?"
         ],
         "responses": [
-          "Inform officer,but not the lecturer"
+          "Exchange students do not have a specific number of credits they need to take unless it is explicitly stated by their home university. If you do not meet the required amount of credits as specified by your university, you will need to meet with the ISC officer to resolve the issue. \n\nPlease make sure to bring any supporting documents that indicate you must take a certain number of credits."
         ]
       },
       {
         "tag": "Best place eat",
         "patterns": [
+          "Where will you recommend me to eat?",
+          "Where to eat?",
           "Where is the best place to eat?",
           "Can you recommend the top dining spots?",
           "What are the best restaurants in the area?",
@@ -232,9 +288,7 @@
           "Can you recommend a place with exceptional reviews for dining?"
         ],
         "responses": [
-          "Inside KK",
-          "KL Gateway",
-          "Faculty cafes"
+          "There are some popular places inside and outside of University Malaya that students love to go for meals.\n\nInside University Malaya:\n1. Kolej Kediaman 7 (KK7)\n2. Food Avenue, Kolej Kediaman 12 (KK12)\n3. Chicken Rice from Faculty of Arts and Social Science, University Malaya\n\nOutside University Malaya:\nThere are some franchise restaurants at any of the nearest malls. However, here are some of the University Malaya's students' favorite spots:\n1. Nasi Lemak Anjing (Restaurant Al-Ehsan)\n2. Nasi Lemak Bumbung\n3. Pokok KL\n4. Piccadilly Restaurant (Having 1001 menu items)\n5. Many More!!!!\n\nFeel free to ask anyone or even buddies for more suggestions!!!"
         ]
       },
       {
@@ -262,7 +316,35 @@
           "Which transportation options are the most efficient?"
         ],
         "responses": [
-          "Bus lrt or grab {PDF} AP1 Briefing 2023_2024.pptx.pdf"
+          "You can explore Kuala Lumpur (KL) and the University of Malaya (UM) using the convenient public transport options available nearby. The LRT and MRT buses can take you to their respective train stations. For easy navigation and route planning, we recommend downloading the Moovit app. Alternatively, you can use Grab to reach your desired destinations.\n\nFrom University Malaya, you can access the LRT bus T789 at the following locations:\n- Law Faculty\n- Kolej Kediaman 1 (KK1)\n- Faculty of Engineering\n- UM Sentral\n- Dewan Tunku Canselor UM\n- Center of Foundation Studies of University of Malaya\n\nSimilarly, the MRT bus T815 can be accessed from these points within University Malaya:\n- Faculty of Business and Economics\n- UM Sentral\n- Center of Foundation Studies of University of Malaya\n- Kolej Kediaman 12 (KK12)\n- Kolej Kediaman 5 (KK5)\n- Kolej Kediaman 11 (KK11)\n- Kolej Kediaman 8 (KK8)\n- Faculty of Computer Science and Information Technology\n- Faculty of Malay Studies\n- Kolej Kediaman 4 (KK4)\n- Law Faculty\n- Kolej Kediaman 1 (KK1)\n- Faculty of Engineering\n\nYou can live track LRT, MRT, and other buses using the following link:\n\nhttps://myrapidbus.prasarana.com.my/kiosk?route=700&bus=\n\nAdditionally, there are shuttle buses available to help you navigate around the University of Malaya. Below are the PDF schedules and the stations each bus stops at.\n\n {PDF} UM Shuttle Bus Route and Schedule.pdf"
+        ]
+      },
+      {
+        "tag": "Touch 'n Go (TnG) card",
+        "patterns": [
+          "Where can I buy a Touch 'n Go card?",
+          "How do I get a Touch 'n Go card?",
+          "What are the steps to obtain a Touch 'n Go card?",
+          "Can I buy a Touch 'n Go card online?",
+          "Which locations sell Touch 'n Go cards?",
+          "Is there a specific store to purchase a Touch 'n Go card?",
+          "Are Touch 'n Go cards available at convenience stores?",
+          "What documents do I need to buy a Touch 'n Go card?",
+          "How much does a Touch 'n Go card cost?",
+          "Can I get a Touch 'n Go card at the airport?",
+          "Where can I recharge my Touch 'n Go card after purchasing it?",
+          "Are there any promotions for getting a Touch 'n Go card?",
+          "Is the Touch 'n Go card available at transit stations?",
+          "Can I get a Touch 'n Go card at a kiosk?",
+          "Do I need to register to get a Touch 'n Go card?",
+          "Are Touch 'n Go cards sold at supermarkets?",
+          "Can tourists buy a Touch 'n Go card?",
+          "Is it possible to get a personalized Touch 'n Go card?",
+          "Are Touch 'n Go cards available at petrol stations?",
+          "Can I buy a Touch 'n Go card from a vending machine?"
+        ],
+        "responses": [
+          "Touch 'n Go card is very useful for you to access public transport around KL. You will need Touch 'n Go card to ride the LRT, MRT, BRT, KTM, and their respective station busses. You can also use it for pay for your parking in the mall and also to buy some items from selected vending machine.\n\nYou can obtain a Touch 'n Go card from various locations. Here are the detailed steps and places where you can get one:\n\n1. Convenience Stores and Supermarkets:\n\n- Touch 'n Go cards are widely available at major convenience stores such as 7-Eleven, MyNews, and KK Mart.\n- You can also purchase them at larger supermarkets like AEON, Tesco, and Giant.\n\n2. Transit Stations:\n\n- Many major transit stations, including LRT, MRT, and monorail stations, sell Touch 'n Go cards at their customer service counters.\n- Some bus terminals also offer Touch 'n Go cards at their information or ticket counters.\n\n3. Touch 'n Go Hubs and Kiosks:\n\n- You can visit official Touch 'n Go hubs located in major shopping malls or transit hubs for purchasing a card.\n- There are also self-service kiosks available at some locations where you can buy and reload your card.\n\n4. Online Purchase:\n\n- Touch 'n Go cards can be purchased online through the official Touch 'n Go e-commerce site or through major e-commerce platforms like Lazada and Shopee.\n- Delivery options are available, and you may need to register an account for the purchase.\n\n5. Petrol Stations:\n\n- Selected petrol stations such as Shell, Petronas, and Caltex sell Touch 'n Go cards.\n\n6. Airports:\n\n- At major airports, you can find Touch 'n Go cards at convenience stores or designated counters in the arrivals area.\n\n7. Cost and Registration:\n\n- The price of a Touch 'n Go card is usually around RM10, and this may or may not include a preloaded balance.\n- Registration is not mandatory to purchase a standard card, but it is recommended for security and additional services. You can register your card online via the Touch 'n Go portal.\n\n8. Reloading Your Card:\n\n- Once you have your card, you can reload it at any of the above locations, as well as through online banking, mobile apps, and ATMs.\n- Look out for promotions and discounts that might be available when you purchase or reload your card.\n\n9. Tourists and Visitors:\n\n- Tourists can easily buy a Touch 'n Go card at the same locations as locals. It is a convenient option for travel and shopping within Malaysia.\n- Personalized Touch 'n Go cards with custom designs are available, usually through online orders or special promotions.\n\nBy following these guidelines, you can easily obtain and use a Touch 'n Go card for your convenience in Malaysia. If you have any further questions, feel free to ask any customer service representative at the respective stores or contact the Touch 'n Go customer service."
         ]
       }
     ]

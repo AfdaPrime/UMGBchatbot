@@ -6,7 +6,9 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# Must Change back to GPU
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 
 with open('UMGBintents.json', 'r') as json_data:
     intents = json.load(json_data)
@@ -49,6 +51,6 @@ def chat(sentence):
                 response = random.choice(intent['responses'])
                 # print(f"{bot_name}: {response}")
     else:
-        response = "I do not understand...."
+        response = "I'm sorry, but I can't answer that question at the moment due to my limited knowledge on certain topics. However, you can ask your buddies by texting them or reach out to the ISC officers by emailing them for further assistance. I apologize for any inconvenience."
         # print(f"{bot_name}: {response}.")
     return response

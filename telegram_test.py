@@ -5,8 +5,10 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 from chat import chat
 
-TOKEN = os.environ.get('TELEGRAM_TOKEN')
-BOT_USERNAME = os.environ.get('BOT_USERNAME')
+# TOKEN = os.environ.get('TELEGRAM_TOKEN')
+# BOT_USERNAME = os.environ.get('BOT_USERNAME')
+TOKEN = "7198195349:AAEoRi8BMCWjtgp3VDQI3QkTVLIVpeOBewI"
+BOT_USERNAME = "@UMBGChatBot"
 
 # Command
 
