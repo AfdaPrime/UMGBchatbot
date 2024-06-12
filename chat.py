@@ -51,6 +51,6 @@ def chat(sentence):
                 response = random.choice(intent['responses'])
                 # print(f"{bot_name}: {response}")
     else:
-        response = "I'm sorry, but I can't answer that question at the moment due to my limited knowledge on certain topics. However, you can ask your buddies by texting them or reach out to the ISC officers by emailing them for further assistance. I apologize for any inconvenience."
+        response = "I'm sorry, but I can't answer that question at the moment due to my limited knowledge on certain topics. However, you can ask your buddies by texting them or reach out to the ISC officers by emailing them for further assistance. I apologize for any inconvenience.\n\nPhone number: +60195234811\nEmail: idzhanskhairi@gmail.com"
         # print(f"{bot_name}: {response}.")
     return response

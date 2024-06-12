@@ -72,6 +72,9 @@
       {
         "tag": "thank you",
         "patterns": [
+          "Tq",
+          "Thx",
+          "Thanks",
           "Thank you!",
           "Thanks a lot!",
           "I appreciate it!",
@@ -124,7 +127,32 @@
           "Which stores offer the most budget-friendly groceries?",
           "What grocery stores provide the best bargains?",
           "Where can I get the best deals on groceries?",
-          "Can you list grocery stores that are known for their cheap prices?"
+          "Can you list grocery stores that are known for their cheap prices?",
+          "Where can I buy some fruits and vegetables?",
+          "Where is the nearest place to get fresh produce?",
+          "Can you recommend a store for buying meat and dairy?",
+          "Where can I find a place to buy snacks and drinks?",
+          "What are some nearby stores that sell fresh vegetables?",
+          "Where can I get fruits and vegetables at a good price?",
+          "Do you know where I can buy chicken and fish nearby?",
+          "Can you suggest a place for buying fresh produce?",
+          "Where can I find fresh fruits and vegetables around here?",
+          "Which store sells affordable meat and dairy products?",
+          "Where is the best place to buy fresh herbs and spices?",
+          "Can you recommend a store for buying fresh fruits?",
+          "Where can I buy bread and bakery items near me?",
+          "What’s a good place to get fresh vegetables and fruits?",
+          "Do you know where I can buy eggs and milk nearby?",
+          "Where can I find fresh produce at a reasonable price?",
+          "Can you suggest a place for buying fresh seafood?",
+          "Where can I get affordable nuts and dried fruits?",
+          "Where is the nearest store for buying cheese and yogurt?",
+          "Can you recommend a place for buying fresh and organic produce?",
+          "Where can I buy bulk items like rice and beans near me?",
+          "Where is the closest place to buy fresh fruits and snacks?",
+          "Can you suggest a nearby store for fresh vegetables and fruits?",
+          "Where can I get good quality meat and fish?",
+          "Do you know a store that sells fresh fruits and vegetables?"
         ],
         "responses": [
           "If you are planning to buy some groceries for yourself, there are several mall that you can visit that have grocery store:\n\n1. Jaya One Aeon Big\nhttps://maps.app.goo.gl/AZ9q1Y1ZpttneErv9 \n\n 2. The Sphere Aeon\nhttps://maps.app.goo.gl/kbcoSLFfC8JBV8ug7 \n\n 3. KL Gateway Village Grocer\nhttps://maps.app.goo.gl/GU6EYddzJ9cpcy5S9\n\nAdditionally, there is a night market every every Tuesday where you can find fresh local produce and local goods. The night market held behind the UM International House. Below are the location of the night market:\nhttps://maps.app.goo.gl/C2Jkzj9DtwDMDNhY7\n\nLastly, if you are looking for basic items such as eggs, instant noodles, snacks, etc, you may go to KK Mart, which is located at Kompleks Perdanasiswa (KPS) and also Kolej Kediaman 12 (KK12) in University Malaya."
@@ -164,7 +192,7 @@
           "Could you give me directions to the International Students and Mobility Center (ISC) office?"
         ],
         "responses": [
-         "The ISC Office will be located at the first floor of Block G, Kompleks Perdanasiswa (KPS). Here is the link of Google Map to ISC Office: \n\nhttps://maps.app.goo.gl/Ck4LiLq9nMkU8h8k7 \n\nTo reach the ISC Office, you can take any bus within UM to get to UM Sentral. From there, it’s just a short walk to Kompleks Perdanasiswa (KPS)."
+         "The ISC Office will be located at the first floor of Block G, Kompleks Perdanasiswa (KPS). Here is the link of Google Map to ISC Office: \n\nhttps://maps.app.goo.gl/Ck4LiLq9nMkU8h8k7 \n\nTo reach the ISC Office, you can take any bus within UM to get to UM Sentral. From there, it's just a short walk to Kompleks Perdanasiswa (KPS)."
         ]
       },
       {
@@ -294,6 +322,9 @@
       {
         "tag": "How to go",
         "patterns": [
+          "How to go?",
+          "How to go to that place?",
+          "What transportation?",
           "By which mode of transportation?",
           "What transport options are available?",
           "With what means of travel?",
@@ -322,6 +353,69 @@
       {
         "tag": "Touch 'n Go (TnG) card",
         "patterns": [
+          "Where can I buy a Touch and Go card?",
+          "How do I get a Touch and Go card?",
+          "What are the steps to obtain a Touch and Go card?",
+          "Can I buy a Touch and Go card online?",
+          "Which locations sell Touch and Go cards?",
+          "Is there a specific store to purchase a Touch and Go card?",
+          "Are Touch and Go cards available at convenience stores?",
+          "What documents do I need to buy a Touch and Go card?",
+          "How much does a Touch and Go card cost?",
+          "Can I get a Touch and Go card at the airport?",
+          "Where can I recharge my Touch and Go card after purchasing it?",
+          "Are there any promotions for getting a Touch and Go card?",
+          "Is the Touch and Go card available at transit stations?",
+          "Can I get a Touch and Go card at a kiosk?",
+          "Do I need to register to get a Touch and Go card?",
+          "Are Touch and Go cards sold at supermarkets?",
+          "Can tourists buy a Touch and Go card?",
+          "Is it possible to get a personalized Touch and Go card?",
+          "Are Touch and Go cards available at petrol stations?",
+          "Can I buy a Touch and Go card from a vending machine?",
+
+          "Where can I buy a TnG card?",
+          "How do I get a TnG card?",
+          "What are the steps to obtain a TnG card?",
+          "Can I buy a TnG card online?",
+          "Which locations sell TnG cards?",
+          "Is there a specific store to purchase a TnG card?",
+          "Are TnG cards available at convenience stores?",
+          "What documents do I need to buy a TnG card?",
+          "How much does a TnG card cost?",
+          "Can I get a TnG card at the airport?",
+          "Where can I recharge my TnG card after purchasing it?",
+          "Are there any promotions for getting a TnG card?",
+          "Is the TnG card available at transit stations?",
+          "Can I get a TnG card at a kiosk?",
+          "Do I need to register to get a TnG card?",
+          "Are TnG cards sold at supermarkets?",
+          "Can tourists buy a TnG card?",
+          "Is it possible to get a personalized TnG card?",
+          "Are TnG cards available at petrol stations?",
+          "Can I buy a TnG card from a vending machine?",
+
+          "Where can I buy a Touch n Go card?",
+          "How do I get a Touch n Go card?",
+          "What are the steps to obtain a Touch n Go card?",
+          "Can I buy a Touch n Go card online?",
+          "Which locations sell Touch n Go cards?",
+          "Is there a specific store to purchase a Touch n Go card?",
+          "Are Touch n Go cards available at convenience stores?",
+          "What documents do I need to buy a Touch n Go card?",
+          "How much does a Touch n Go card cost?",
+          "Can I get a Touch n Go card at the airport?",
+          "Where can I recharge my Touch n Go card after purchasing it?",
+          "Are there any promotions for getting a Touch n Go card?",
+          "Is the Touch n Go card available at transit stations?",
+          "Can I get a Touch n Go card at a kiosk?",
+          "Do I need to register to get a Touch n Go card?",
+          "Are Touch n Go cards sold at supermarkets?",
+          "Can tourists buy a Touch n Go card?",
+          "Is it possible to get a personalized Touch n Go card?",
+          "Are Touch n Go cards available at petrol stations?",
+          "Can I buy a Touch n Go card from a vending machine?",
+
           "Where can I buy a Touch 'n Go card?",
           "How do I get a Touch 'n Go card?",
           "What are the steps to obtain a Touch 'n Go card?",
@@ -342,6 +436,15 @@
           "Is it possible to get a personalized Touch 'n Go card?",
           "Are Touch 'n Go cards available at petrol stations?",
           "Can I buy a Touch 'n Go card from a vending machine?"
+        ],
+        "responses": [
+          "Touch 'n Go card is very useful for you to access public transport around KL. You will need Touch 'n Go card to ride the LRT, MRT, BRT, KTM, and their respective station busses. You can also use it for pay for your parking in the mall and also to buy some items from selected vending machine.\n\nYou can obtain a Touch 'n Go card from various locations. Here are the detailed steps and places where you can get one:\n\n1. Convenience Stores and Supermarkets:\n\n- Touch 'n Go cards are widely available at major convenience stores such as 7-Eleven, MyNews, and KK Mart.\n- You can also purchase them at larger supermarkets like AEON, Tesco, and Giant.\n\n2. Transit Stations:\n\n- Many major transit stations, including LRT, MRT, and monorail stations, sell Touch 'n Go cards at their customer service counters.\n- Some bus terminals also offer Touch 'n Go cards at their information or ticket counters.\n\n3. Touch 'n Go Hubs and Kiosks:\n\n- You can visit official Touch 'n Go hubs located in major shopping malls or transit hubs for purchasing a card.\n- There are also self-service kiosks available at some locations where you can buy and reload your card.\n\n4. Online Purchase:\n\n- Touch 'n Go cards can be purchased online through the official Touch 'n Go e-commerce site or through major e-commerce platforms like Lazada and Shopee.\n- Delivery options are available, and you may need to register an account for the purchase.\n\n5. Petrol Stations:\n\n- Selected petrol stations such as Shell, Petronas, and Caltex sell Touch 'n Go cards.\n\n6. Airports:\n\n- At major airports, you can find Touch 'n Go cards at convenience stores or designated counters in the arrivals area.\n\n7. Cost and Registration:\n\n- The price of a Touch 'n Go card is usually around RM10, and this may or may not include a preloaded balance.\n- Registration is not mandatory to purchase a standard card, but it is recommended for security and additional services. You can register your card online via the Touch 'n Go portal.\n\n8. Reloading Your Card:\n\n- Once you have your card, you can reload it at any of the above locations, as well as through online banking, mobile apps, and ATMs.\n- Look out for promotions and discounts that might be available when you purchase or reload your card.\n\n9. Tourists and Visitors:\n\n- Tourists can easily buy a Touch 'n Go card at the same locations as locals. It is a convenient option for travel and shopping within Malaysia.\n- Personalized Touch 'n Go cards with custom designs are available, usually through online orders or special promotions.\n\nBy following these guidelines, you can easily obtain and use a Touch 'n Go card for your convenience in Malaysia. If you have any further questions, feel free to ask any customer service representative at the respective stores or contact the Touch 'n Go customer service."
+        ]
+      },
+      {
+        "tag": "Sick Hospital Clinic Healthcare",
+        "patterns": [
+
         ],
         "responses": [
           "Touch 'n Go card is very useful for you to access public transport around KL. You will need Touch 'n Go card to ride the LRT, MRT, BRT, KTM, and their respective station busses. You can also use it for pay for your parking in the mall and also to buy some items from selected vending machine.\n\nYou can obtain a Touch 'n Go card from various locations. Here are the detailed steps and places where you can get one:\n\n1. Convenience Stores and Supermarkets:\n\n- Touch 'n Go cards are widely available at major convenience stores such as 7-Eleven, MyNews, and KK Mart.\n- You can also purchase them at larger supermarkets like AEON, Tesco, and Giant.\n\n2. Transit Stations:\n\n- Many major transit stations, including LRT, MRT, and monorail stations, sell Touch 'n Go cards at their customer service counters.\n- Some bus terminals also offer Touch 'n Go cards at their information or ticket counters.\n\n3. Touch 'n Go Hubs and Kiosks:\n\n- You can visit official Touch 'n Go hubs located in major shopping malls or transit hubs for purchasing a card.\n- There are also self-service kiosks available at some locations where you can buy and reload your card.\n\n4. Online Purchase:\n\n- Touch 'n Go cards can be purchased online through the official Touch 'n Go e-commerce site or through major e-commerce platforms like Lazada and Shopee.\n- Delivery options are available, and you may need to register an account for the purchase.\n\n5. Petrol Stations:\n\n- Selected petrol stations such as Shell, Petronas, and Caltex sell Touch 'n Go cards.\n\n6. Airports:\n\n- At major airports, you can find Touch 'n Go cards at convenience stores or designated counters in the arrivals area.\n\n7. Cost and Registration:\n\n- The price of a Touch 'n Go card is usually around RM10, and this may or may not include a preloaded balance.\n- Registration is not mandatory to purchase a standard card, but it is recommended for security and additional services. You can register your card online via the Touch 'n Go portal.\n\n8. Reloading Your Card:\n\n- Once you have your card, you can reload it at any of the above locations, as well as through online banking, mobile apps, and ATMs.\n- Look out for promotions and discounts that might be available when you purchase or reload your card.\n\n9. Tourists and Visitors:\n\n- Tourists can easily buy a Touch 'n Go card at the same locations as locals. It is a convenient option for travel and shopping within Malaysia.\n- Personalized Touch 'n Go cards with custom designs are available, usually through online orders or special promotions.\n\nBy following these guidelines, you can easily obtain and use a Touch 'n Go card for your convenience in Malaysia. If you have any further questions, feel free to ask any customer service representative at the respective stores or contact the Touch 'n Go customer service."

@@ -15,7 +15,7 @@ BOT_USERNAME = "@UMBGChatBot"
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
-    await update.message.reply_text('Hello! Thanks for chatting with me! I a UMGB Bot')
+    await update.message.reply_text('Hello! Thanks for chatting with me! I am UMGB ChatBot')
 
 
 # end def
